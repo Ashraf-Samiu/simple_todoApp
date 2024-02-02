@@ -60,7 +60,6 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
             Expanded(
-              flex: 85,
               child: ListView.builder(
                 itemCount: todoList.length,
                 itemBuilder: (context,index){
